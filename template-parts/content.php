@@ -27,6 +27,10 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+        <?php if (has_post_thumbnail()){ ?>
+            <p><?php the_post_thumbnail('thumbnail'); ?></p>
+        <?php } ?>
+        
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
@@ -39,6 +43,7 @@
 				'after'  => '</div>',
 			) );
 		?>
+
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
