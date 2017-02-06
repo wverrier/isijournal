@@ -932,3 +932,7 @@ main{
 	width: 80%;
 	margin: 10px 10px 10px 50px;
 }
+
+div.nav-previous a{
+	color: #bf1029;
+}
