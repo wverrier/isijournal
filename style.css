@@ -1,5 +1,5 @@
 /*
-Theme Name: starter theme
+Theme Name: isijournal theme
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -506,14 +506,10 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #bf1029;
 }
 
-a:visited {
-	color: purple;
-}
 
-a:hover,
 a:focus,
 a:active {
 	color: midnightblue;
@@ -892,4 +888,16 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/*---------Modification-------*/
+
+h1 a {
+	text-decoration: none;
+}
+
+/*-----Hover menu-----*/
+li a:hover{
+	border-bottom: 2px solid orangered;
+	color: grey;
 }
