@@ -509,12 +509,6 @@ a {
 	color: #bf1029;
 }
 
-
-a:focus,
-a:active {
-	color: midnightblue;
-}
-
 a:focus {
 	outline: thin dotted;
 }
@@ -891,10 +885,6 @@ object {
 }
 
 /*---------Modification-------*/
-main{
-	width: 80%;
-	margin: 10px;
-}
 
 h1{
 font-size: 2.5rem;
@@ -930,7 +920,15 @@ li a:hover{
 	/*transition: all .5s;*/
 	/*line-height: 20px;*/
 }
+a:active{
+	border-bottom: 1px solid #bf1029;
+}
 
 .entry-content{
 	width: 50%;
+}
+/*-----Main-----*/
+main{
+	width: 80%;
+	margin: 10px 10px 10px 50px;
 }
