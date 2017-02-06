@@ -914,13 +914,21 @@ nav.main-navigation{
 nav a {
 	color: #fff;
 	margin-left: 50px;
-	margin-top: 10pxg;
+	margin-top: 10px;
 }
 
 /*-----Hover menu-----*/
+
 li a:hover{
-	border-bottom: 2px solid orangered;
-	color: grey;
+	background-color: #bf1029;
+	margin-top: 5px;
+	padding: 6px 9px;
+	transition: 0.4s;
+	/*-moz-transition: all .5s;*/
+	/*-webkit-transition: all .5s;*/
+	/*-o-transition: all .5s;*/
+	/*transition: all .5s;*/
+	/*line-height: 20px;*/
 }
 
 .entry-content{
