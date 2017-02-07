@@ -959,11 +959,11 @@ h2 a {
 
 div.entry-content p {
     display: inline-block;
-    width: 80%;
+    width: 66%;
 }
 
 div.entry-content p:first-child {
-    width: 14%;
+    width:30%;
 }
 
 /*INLINE*/
@@ -987,7 +987,3 @@ aside#secondary a {
 }
 
 /*----Page article---*/
-.post-template-default single single-post postid-43 single-format-aside logged-in admin-bar customize-support div.entry-content p{
-display: block;
-    width: 100%;
-}
