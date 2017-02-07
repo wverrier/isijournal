@@ -28,7 +28,7 @@
 
 	<div class="entry-content">
         <?php if (has_post_thumbnail()){ ?>
-            <p><?php the_post_thumbnail('thumbnail'); ?></p>
+            <p><?php the_post_thumbnail('large'); ?></p>
         <?php } ?>
 
 		<?php
