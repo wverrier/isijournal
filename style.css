@@ -621,7 +621,7 @@ a:active {
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
 	float: left;
-	width: 50%;
+	width: 70%;
 }
 
 .comment-navigation .nav-next,
@@ -629,7 +629,7 @@ a:active {
 .post-navigation .nav-next {
 	float: right;
 	text-align: right;
-	width: 50%;
+	width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -927,7 +927,7 @@ div.menu-principal-container a:active{
 /*MAIN*/
 main{
 	margin: 10px 10px 10px 50px;
-	width: 50%;
+	width: 82%;
 }
 
 div.nav-previous a{
@@ -947,10 +947,24 @@ form label{
 	display: inline-block;
 }
 
+/*ARTICLE*/
+h2 a {
+	text-decoration: none;
+}
+
+div.entry-content p{
+	display: inline-block;
+	width: 80%;
+}
+div.entry-content p:first-child{
+	width: 14%;
+}
+
 /*INLINE*/
 #content{
 	display: inline-flex;
 }
+
 
 /*SIDEBAR*/
 aside#secondary h2{
