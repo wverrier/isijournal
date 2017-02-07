@@ -953,5 +953,16 @@ form label{
 }
 
 /*SIDEBAR*/
+aside#secondary h2{
 
+	border-bottom: 1.5px solid #bf1029 ;
+}
+
+aside#secondary li{
+	  list-style-type: none;
+	padding-bottom: 10px;
+  }
+aside#secondary a{
+	text-decoration: none;
+}
 /*----Page article---*/
