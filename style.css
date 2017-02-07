@@ -965,6 +965,9 @@ div.entry-content p {
 div.entry-content p:first-child {
     width:30%;
 }
+article{
+    border-bottom: 0.5px solid #ebebeb;
+}
 
 /*INLINE*/
 #content {
