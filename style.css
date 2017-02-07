@@ -985,5 +985,18 @@ aside#secondary li {
 aside#secondary a {
     text-decoration: none;
 }
-
+/*FOOTER*/
+span{
+padding-left: 5px;
+}
+#colophon{
+    background-color: #1a1a1a;
+}
+.site-info a{
+    text-decoration: none;
+    color: #fff;
+}
+.site-info{
+    text-align: center;
+}
 /*----Page article---*/
