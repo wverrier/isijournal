@@ -1018,3 +1018,20 @@ padding-left: 5px;
     text-align: center;
 }
 /*----Page article---*/
+
+body.post-template-default.single.single-post.postid-112.single-format-standard.logged-in.admin-bar.customize-support main{
+    width: 100%;
+}
+
+body.post-template-default.single.single-post.postid-112.single-format-standard.logged-in.admin-bar.customize-support p{
+    width: 80%;
+}
+
+body.post-template-default.single.single-post.postid-112.single-format-standard.logged-in.admin-bar.customize-support p:nth-of-type(2){
+    display: block;
+    padding-left: 0;
+}
+
+/*body.post-template-default.single.single-post.postid-112.single-format-standard.logged-in.admin-bar.customize-support div p:first-child{*/
+    /*text-align: center;*/
+/*}*/
