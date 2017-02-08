@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-            
+
             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('top') ) : endif; ?>
 
 		<?php
