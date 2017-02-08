@@ -17,12 +17,21 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 </aside><!-- #secondary -->
 
 <?php
-if ( ! is_active_sidebar( 'top' ) ) {
+if ( ! is_active_sidebar( 'slide' ) ) {
 return;
 }
 ?>
 
-<aside id="top_sidebar" class="widget-area" role="complementary">
-    <?php dynamic_sidebar( 'top' ); ?>
+<aside id="slide_sidebar" class="widget-area" role="complementary">
+    <?php dynamic_sidebar( 'slide' ); ?>
 </aside>
 
+<?php
+if ( ! is_active_sidebar( 'share' ) ) {
+    return;
+}
+?>
+
+<aside id="share_sidebar" class="widget-area" role="complementary">
+    <?php dynamic_sidebar( 'share' ); ?>
+</aside>

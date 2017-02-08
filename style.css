@@ -896,6 +896,10 @@ object {
     text-decoration: none;
 }
 
+/*  SHARE */
+div.addthis_toolbox.addthis_default_style.addthis_32x32_style{
+    float: right;
+}
 /*MENU*/
 nav.main-navigation {
     background-color: #1a1a1a;
@@ -932,6 +936,11 @@ div.menu-principal-container a:active {
 main {
     margin: 10px 10px 10px 50px;
     width: 82%;
+}
+
+/*Carrousel*/
+div.camera_wrap{
+margin-bottom: 30px;
 }
 
 div.nav-previous a {

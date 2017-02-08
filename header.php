@@ -24,6 +24,9 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'starter-theme' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
+
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('share') ) : endif; ?>
+
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
