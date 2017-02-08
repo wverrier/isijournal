@@ -17,7 +17,7 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'starter-theme' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'starter-theme' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'starter-theme' ), 'starter-theme', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'starter-theme' ), 'starter-theme', '<a href="https://automattic.com/" rel="designer">Willy Verrier</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
