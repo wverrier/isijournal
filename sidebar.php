@@ -17,12 +17,12 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 </aside><!-- #secondary -->
 
 <?php
-//if ( ! is_active_sidebar( 'sidebar-2' ) ) {
-//return;
-//}
-//?>
-<!---->
-<!--<aside id="secondary" class="widget-area" role="complementary">-->
-<!--    --><?php //dynamic_sidebar( 'sidebar-2' ); ?>
-<!--</aside><!-- #secondary -->
+if ( ! is_active_sidebar( 'top' ) ) {
+return;
+}
+?>
+
+<aside id="top_sidebar" class="widget-area" role="complementary">
+    <?php dynamic_sidebar( 'top' ); ?>
+</aside>
 

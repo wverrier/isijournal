@@ -101,17 +101,25 @@ function starter_theme_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 
-//    register_sidebar( array(
-//        'name'          => esc_html__( 'Top', 'starter-theme' ),
-//        'id'            => 'sidebar-2',
-//        'description'   => esc_html__( 'Add widgets here.', 'starter-theme' ),
-//        'before_widget' => '',
-//        'after_widget'  => '',
-//        'before_title'  => '<div class="site-branding">',
-//        'after_title'   => '<header>',
-//    ) );
+    register_sidebar( array(
+        'name'          => esc_html__( 'Top', 'starter-theme' ),
+        'id'            => 'top_sidebar',
+        'description'   => esc_html__( 'Add widgets here.', 'starter-theme' ),
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
 }
 add_action( 'widgets_init', 'starter_theme_widgets_init' );
+
+/**
+ * Widget shortcode
+ */
+
+if ( !is_admin() ) {
+    add_filter('widget_text', 'do_shortcode', 11);
+}
 
 /**
  * Enqueue scripts and styles.
