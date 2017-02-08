@@ -28,7 +28,7 @@
 
 	<div class="entry-content">
         <?php if (has_post_thumbnail()){ ?>
-            <p><?php the_post_thumbnail(array (500,200)); ?></p>
+            <p><?php the_post_thumbnail(array (500,300)); ?></p>
         <?php } ?>
 
 		<?php
