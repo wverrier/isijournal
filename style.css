@@ -1063,10 +1063,24 @@ body.post-template-default.single.single-post.postid-112.single-format-standard 
     }
     div.entry-content p:nth-of-type(2){
         padding-left: 0;
+        text-align: justify;
     }
 }
 
 /***************************--------------------------------pour mobile 760px--------------------------------*/
 @media only screen and (max-width: 760px) {
-    
+    #content {
+         display: block;
+    }
+    #secondary{
+        width: 100%;
+    }
+    div #primary {
+        width: 97%;
+    }
+
+    main {
+        margin: 10px 0px 10px 10px;
+        width: 100%;
+    }
 }
