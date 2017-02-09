@@ -1049,3 +1049,24 @@ body.post-template-default.single.single-post.postid-112.single-format-standard 
     display: block;
     padding-left: 0;
 }
+
+/*------RESPONSIVE--------*/
+
+/**************------------------------------------------- Pour les tablettes 960px -----------------------------------*/
+@media only screen and (max-width: 1024px) {
+    div.entry-content p{
+        display: block;
+        width: 100%;
+    }
+    img{
+        max-width: 250%;
+    }
+    div.entry-content p:nth-of-type(2){
+        padding-left: 0;
+    }
+}
+
+/***************************--------------------------------pour mobile 760px--------------------------------*/
+@media only screen and (max-width: 760px) {
+    
+}
