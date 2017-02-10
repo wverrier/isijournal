@@ -1037,6 +1037,7 @@ body.post-template-default.single.single-post.postid-112.single-format-standard.
 /*}*/
 
 /*CSS Article*/
+/*Intel*/
 body.post-template-default.single.single-post.postid-112.single-format-standard main{
     width: 100%;
 }
@@ -1049,7 +1050,59 @@ body.post-template-default.single.single-post.postid-112.single-format-standard 
     display: block;
     padding-left: 0;
 }
+/*Vegas*/
+body.post-template-default.single.single-post.postid-109.single-format-standard main{
+    width: 100%;
+}
 
+body.post-template-default.single.single-post.postid-109.single-format-standard  p{
+    width: 80%;
+}
+
+body.post-template-default.single.single-post.postid-109.single-format-standard  p:nth-of-type(2){
+    display: block;
+    padding-left: 0;
+}
+
+/*IKEA*/
+body.post-template-default.single.single-post.postid-106.single-format-standard main{
+    width: 100%;
+}
+
+body.post-template-default.single.single-post.postid-106.single-format-standard p{
+    width: 80%;
+}
+
+body.post-template-default.single.single-post.postid-106.single-format-standard  p:nth-of-type(2){
+    display: block;
+    padding-left: 0;
+}
+
+/*SILICON VALLEY*/
+body.post-template-default.single.single-post.postid-43.single-format-aside main{
+    width: 100%;
+}
+body.post-template-default.single.single-post.postid-43.single-format-aside p{
+    width: 80%;
+}
+
+body.post-template-default.single.single-post.postid-43.single-format-aside p:nth-of-type(2){
+    display: block;
+    padding-left: 0;
+}
+
+/*E3*/
+body.post-template-default.single.single-post.postid-40.single-format-aside main{
+    width: 100%;
+}
+body.post-template-default.single.single-post.postid-40.single-format-aside p{
+    width: 80%;
+}
+
+body.post-template-default.single.single-post.postid-40.single-format-aside p:nth-of-type(2){
+    display: block;
+    padding-left: 0;
+}
 /*------RESPONSIVE--------*/
 
 /**************------------------------------------------- Pour les tablettes 960px -----------------------------------*/
@@ -1080,7 +1133,27 @@ body.post-template-default.single.single-post.postid-112.single-format-standard 
     }
 
     main {
-        margin: 10px 0px 10px 10px;
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+
+    nav.main-navigation {
+        height: 150px;
+}
+    .main-navigation a {
+
+        width: 120px;
+    }
+
+    body.post-template-default.single.single-post.postid-112.single-format-standard p {
+        width: 100%;
+    }
+
+    body.post-template-default.single.single-post.postid-109.single-format-standard p{
+        width: 100%;
+    }
+
+    body.post-template-default.single.single-post.postid-106.single-format-standard p{
         width: 100%;
     }
 }
